@@ -1,0 +1,113 @@
+.dragon {
+  background-color: darkblue;
+  background: url("https://w0.peakpx.com/wallpaper/400/529/HD-wallpaper-neon-dragon-3d-dragon-painted-dragon.jpg")no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  font-size: 4em;
+  font-family: 'Georgia', 'Goudy', 'Old Style';
+  padding: 3px;
+}
+
+#text {
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  font-weight: 500;
+  transform: translateY(70px);
+}
+
+#game {
+  width: 500px;
+  height: 350px;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  display:block;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(25px);
+  border: 3px solid rgba(255, 255, 255, .5);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, .9);
+  outline:none;
+}
+
+#controls {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(35px);
+  color: whitesmoke;
+  background: transparent;
+}
+#controls button{
+  color: whitesmoke;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  width: 140px;
+  border-radius: 40px;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: 'Georgia', 'Goudy', 'Old Style';
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+
+#controls button:hover{
+  background: #4dd2ff99;
+  color: black;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+#stats {
+  color:whitesmoke;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(20px);
+}
+
+#monsterStats {
+  display: none;
+  border: 3px solid red;
+  padding: 5px;
+  border-radius: 40px;
+  outline: none;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(55px);
+}
+
+.stat{
+  color:whitesmoke;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 48px;
+}
+#monsterStats .stat{
+  margin-left: 50px;
+}
